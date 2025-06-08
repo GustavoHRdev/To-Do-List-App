@@ -1,58 +1,51 @@
-To-Do List Glassmorphism
-A simple task list app with a modern design based on the glassmorphism effect, built with pure HTML, CSS, and JavaScript.
+📝 To-Do List App  
+![To-Do List Screenshot](print-projeto.png)
 
-Features
-Add new tasks.
 
-Edit existing tasks.
+---
 
-Mark tasks as completed.
+📍 Description  
+A simple, modern, and responsive to-do list application built with HTML, CSS, and Vanilla JavaScript.
 
-Delete tasks.
+Users can add, delete, and mark tasks as completed. The task list is saved automatically using the browser’s localStorage, so your tasks remain even after reloading the page.
 
-Progress bar showing the percentage of completed tasks.
+---
 
-Motivational message when all tasks are completed.
+🎯 Features  
+✅ Add new tasks  
+❌ Delete tasks  
+✔️ Mark tasks as completed  
+🧼 Clear all completed tasks  
+💾 Auto-save with localStorage  
+📱 Responsive design (desktop and mobile)
 
-Confetti animation upon completing all tasks.
+---
 
-Automatic saving using localStorage to keep tasks between sessions.
+🧰 Technologies Used  
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- localStorage API
 
-Validation to avoid adding duplicate tasks.
+---
 
-Responsive design with modern glassmorphism visual effect.
+🌐 Live Preview  
+➡️ [Click here to open the To-Do List App in your browser](https://gustavohrdev.github.io/To-Do-List-/)
 
-Technologies Used
-HTML5
+---
 
-CSS3 (Glassmorphism and animations)
+🚀 How to Use  
+1. Clone the repository:  
+```bash
+git clone https://github.com/GustavoHRdev/To-Do-List-.git
 
-JavaScript ES6+
+---
 
-Font Awesome for icons
+Open the index.html file in your browser.
 
-tsParticles Confetti for confetti animation
+Start managing your tasks efficiently!
 
-How to Use
-Clone or download the repository.
-
-Open the index.html file in your preferred browser.
-
-Type a task in the input box and click the + button to add.
-
-Use the edit, delete, or mark as completed buttons.
-
-Watch the progress bar update as you advance.
-
-Enjoy the confetti animation when all tasks are completed!
-
-Demo
-You can see the project live at:
-https://gustavohrdev.github.io/repository-name
-
-(Replace with your actual GitHub Pages URL)
-
-Contact
-Developed by Gustavo Henrique Rocha.
-LinkedIn: https://www.linkedin.com/in/gustavohrdev
-GitHub: https://github.com/gustavohrdev
+📫 Contact
+🌐 LinkedIn – Connect with me
+🐱 GitHub – Check out more projects
+📱 WhatsApp – Quick contact
