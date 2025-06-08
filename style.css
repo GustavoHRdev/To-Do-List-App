@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(./image/WolfForest01-HQ-01.jpg) no-repeat center center/cover;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.todo-app h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.input-area {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px 17px;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  border-radius: 22px;
+  background: rgba(106, 204, 211, 0.226);
+  color: #6b6565;
+}
+
+.input-area input::placeholder {
+  color: #ffffff;
+}
+
+.input-area button {
+  padding: 10px;
+  border-radius: 50%;
+  background: rgba(179, 72, 1, 0.322);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.input-area button:hover {
+  transform: scale(1.1);
+  background-color: #80ddf5;
+}
+
+.empty-image {
+  width: 100%;
+  opacity: 0.6;
+  display: none;
+}
+
+#task-list {
+  width: 100%;
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(9, 11, 82, 0.534);
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  position: relative;
+  animation: fadeInUp 0.3s forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+input.checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+input.checkbox:checked {
+  background-color: #ff6f91;
+}
+
+input.checkbox:checked::before {
+  content: '✔';
+  color: white;
+  font-size: 0.9rem;
+  position: absolute;
+  top: -1px;
+  left: 5px;
+}
+
+#task-list li span {
+  flex: 1;
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.task-buttons button {
+  background: rgba(12, 128, 236, 0.514);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-buttons button:hover {
+  transform: scale(1.2);
+}
+
+.edit-btn {
+  background: #ffbf00;
+}
+
+.delete-btn {
+  background: #ff6f91;
+}
+
+.progress-container {
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #ff6f91, #ffbf00, #80ddf5);
+  border-radius: 20px;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  color: #fff;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.completed span {
+    text-decoration: line-through;
+   
+}
+
+#keep-going-message {
+    font-size: 1.2rem;
+    color: #ff6f91;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#keep-going-message.visible {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { transform: translateY(10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.visible {
+    opacity: 1;
+}
