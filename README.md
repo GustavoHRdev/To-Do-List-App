@@ -1,5 +1,5 @@
 📝 To-Do List App  
-![To-Do List Screenshot](print-projeto.png)
+![To-Do List Screenshot](image/print-projeto.png)
 
 
 ---
