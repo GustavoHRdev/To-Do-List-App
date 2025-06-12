@@ -30,7 +30,7 @@ Users can add, delete, and mark tasks as completed. The task list is saved autom
 ---
 
 🌐 Live Preview  
-➡️ 👉 [https://gustavohrdev.github.io/To-Do-List-App/](https://gustavohrdev.github.io/To-Do-List-App/)
+➡️ [https://gustavohrdev.github.io/To-Do-List-App/](https://gustavohrdev.github.io/To-Do-List-App/)
 
 ---
 
