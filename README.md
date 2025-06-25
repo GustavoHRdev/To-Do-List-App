@@ -51,9 +51,10 @@ Open the index.html file in your browser.
 Start managing your tasks efficiently!
 
 📫 Contact
-🌐 LinkedIn – Connect with me
-🐱 GitHub – Check out more projects
-📱 WhatsApp – Quick contact
+
+[🌐 LinkedIn – Connect with me](https://www.linkedin.com/in/gustavohrdev)  
+[🐱 GitHub – Check out more projects](https://github.com/GustavoHRdev)  
+[📱 WhatsApp – Quick contact](https://wa.me/5543996448129) 
 
 
 ## 🇧🇷 Versão PT‑BR
@@ -93,5 +94,14 @@ Os usuários podem adicionar, deletar e marcar tarefas como concluídas. A lista
 🚀 Como usar  
 1. Clone o repositório:  
 ```bash```
+
 git clone https://github.com/GustavoHRdev/To-Do-List-.git
+
+---
+
+📫 Contato
+
+[🌐 LinkedIn – Connect with me](https://www.linkedin.com/in/gustavohrdev)  
+[🐱 GitHub – Check out more projects](https://github.com/GustavoHRdev)  
+[📱 WhatsApp – Quick contact](https://wa.me/5543996448129)
 
