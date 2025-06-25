@@ -92,6 +92,6 @@ Os usuários podem adicionar, deletar e marcar tarefas como concluídas. A lista
 
 🚀 Como usar  
 1. Clone o repositório:  
-```bash````
+```bash```
 git clone https://github.com/GustavoHRdev/To-Do-List-.git
 
