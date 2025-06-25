@@ -39,7 +39,7 @@ Users can add, delete, and mark tasks as completed. The task list is saved autom
 
 🚀 How to Use  
 1. Clone the repository:  
-```bash````
+```bash```
 
 git clone https://github.com/GustavoHRdev/To-Do-List-.git
 
