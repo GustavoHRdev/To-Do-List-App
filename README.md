@@ -10,9 +10,15 @@
 
 ![To-Do List Screenshot](image/print-projeto.png)
 
+
 ### 🌐 Visualizar Online  
 ➡️ [To-Do List App](https://gustavohrdev.github.io/To-Do-List-App/)
+=======
+[🇧🇷 Ver em Português](#versao-pt-br) | [🇬🇧 See in English](#english-version)
+ edf915737170da2010357673bae4914d9aef7a35
 
+## 🇬🇧 English Version
+<a name="english-version"></a>
 ---
 
 ### 📍 Descrição  
@@ -89,8 +95,10 @@ Tasks are automatically saved in your browser using `localStorage`, so your list
 
 ### 🚀 How to Use
 1. Clone the repository:  
-```bash
+```bash```
+
 git clone https://github.com/GustavoHRdev/To-Do-List-.git
+<<<<<<< HEAD
 2. Open the index.html file in your browser.
 
 Start managing your tasks efficiently!
@@ -101,3 +109,68 @@ Start managing your tasks efficiently!
 - 🌐 [LinkedIn](https://www.linkedin.com/in/gustavohrdev/) – Connect with me
 - 🐱 [GitHub](https://github.com/GustavoHRdev) – Check out more projects
 - 📱 [WhatsApp](https://wa.me/5543996448129) – Quick contact 
+=======
+
+---
+
+
+Open the index.html file in your browser.
+
+Start managing your tasks efficiently!
+
+📫 Contact
+
+[🌐 LinkedIn – Connect with me](https://www.linkedin.com/in/gustavohrdev)  
+[🐱 GitHub – Check out more projects](https://github.com/GustavoHRdev)  
+[📱 WhatsApp – Quick contact](https://wa.me/5543996448129) 
+
+
+## 🇧🇷 Versão PT‑BR
+<a name="versao-pt-br"></a>
+---
+
+📍 Descrição  
+Um aplicativo simples, moderno e responsivo de lista de tarefas construído com HTML, CSS e JavaScript puro.
+
+Os usuários podem adicionar, deletar e marcar tarefas como concluídas. A lista é salva automaticamente usando o localStorage do navegador, então as tarefas permanecem mesmo após recarregar a página.
+
+---
+
+🎯 Funcionalidades  
+✅ Adicionar novas tarefas  
+❌ Deletar tarefas  
+✔️ Marcar tarefas como concluídas  
+🧼 Limpar todas as tarefas concluídas  
+💾 Salvamento automático com localStorage  
+📱 Design responsivo (desktop e mobile)
+
+---
+
+🧰 Tecnologias Utilizadas  
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- API localStorage
+
+---
+
+🌐 Visualização Online  
+➡️ [https://gustavohrdev.github.io/To-Do-List-App/](https://gustavohrdev.github.io/To-Do-List-App/)
+
+---
+
+🚀 Como usar  
+1. Clone o repositório:  
+```bash```
+
+git clone https://github.com/GustavoHRdev/To-Do-List-.git
+
+---
+
+📫 Contato
+
+[🌐 LinkedIn – Connect with me](https://www.linkedin.com/in/gustavohrdev)  
+[🐱 GitHub – Check out more projects](https://github.com/GustavoHRdev)  
+[📱 WhatsApp – Quick contact](https://wa.me/5543996448129)
+
+>>>>>>> edf915737170da2010357673bae4914d9aef7a35
