@@ -72,6 +72,8 @@ Start managing your tasks efficiently!
 
 ## <a name="pt-br"></a>🇧🇷 Versão em Português
 
+![To-Do List Screenshot](image/print-projeto.png)
+
 📍 Descrição  
 Um aplicativo simples, moderno e responsivo de lista de tarefas construído com HTML, CSS e JavaScript puro.
 
