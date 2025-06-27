@@ -6,60 +6,7 @@
 
 ---
 
-## <a name="pt-br"></a>🇧🇷 Versão em Português
-
 ![To-Do List Screenshot](image/print-projeto.png)
-
-
-### 🌐 Visualizar Online  
-➡️ [To-Do List App](https://gustavohrdev.github.io/To-Do-List-App/)
-=======
-[🇧🇷 Ver em Português](#versao-pt-br) | [🇬🇧 See in English](#english-version)
- edf915737170da2010357673bae4914d9aef7a35
-
-## 🇬🇧 English Version
-<a name="english-version"></a>
----
-
-### 📍 Descrição  
-Aplicativo de lista de tarefas simples, funcional e responsivo, desenvolvido com **HTML**, **CSS** e **JavaScript puro**.
-
-Com ele, você pode:
-- ✅ Adicionar novas tarefas  
-- ❌ Excluir tarefas  
-- ✔️ Marcar tarefas como concluídas  
-- 🧼 Limpar tarefas concluídas  
-- 💾 Salvamento automático com localStorage  
-- 📱 Usar em qualquer dispositivo
-
-As tarefas são salvas automaticamente no navegador através do `localStorage`, garantindo que sua lista continue mesmo após atualizar a página.
-
----
-
-### 🧰 Tecnologias Utilizadas
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
-- API localStorage
-
----
-
-### 🚀 Como Usar
-1. Clone o repositório:  
-```bash```
-git clone https://github.com/GustavoHRdev/To-Do-List-.git
-2. Abra o arquivo `index.html` no navegador.
-
-Organize suas tarefas de forma prática e eficiente!
-
----
-
-### 📫 Contato
-- 🌐 [LinkedIn](https://www.linkedin.com/in/gustavohrdev/) – Conecte-se comigo  
-- 🐱 [GitHub](https://github.com/GustavoHRdev) – Veja mais projetos  
-- 📱 [WhatsApp](https://wa.me/5543996448129) – Contato rápido  
-
----
 
 ## <a name="en"></a>🇺🇸 English Version
 
@@ -95,10 +42,10 @@ Tasks are automatically saved in your browser using `localStorage`, so your list
 
 ### 🚀 How to Use
 1. Clone the repository:  
-```bash```
-
+```bash
 git clone https://github.com/GustavoHRdev/To-Do-List-.git
-<<<<<<< HEAD
+```
+
 2. Open the index.html file in your browser.
 
 Start managing your tasks efficiently!
@@ -125,9 +72,7 @@ Start managing your tasks efficiently!
 [📱 WhatsApp – Quick contact](https://wa.me/5543996448129) 
 
 
-## 🇧🇷 Versão PT‑BR
-<a name="versao-pt-br"></a>
----
+## <a name="pt-br"></a>🇧🇷 Versão em Português
 
 📍 Descrição  
 Um aplicativo simples, moderno e responsivo de lista de tarefas construído com HTML, CSS e JavaScript puro.
@@ -161,10 +106,9 @@ Os usuários podem adicionar, deletar e marcar tarefas como concluídas. A lista
 
 🚀 Como usar  
 1. Clone o repositório:  
-```bash```
-
+```bash
 git clone https://github.com/GustavoHRdev/To-Do-List-.git
-
+```
 ---
 
 📫 Contato
@@ -173,4 +117,5 @@ git clone https://github.com/GustavoHRdev/To-Do-List-.git
 [🐱 GitHub – Check out more projects](https://github.com/GustavoHRdev)  
 [📱 WhatsApp – Quick contact](https://wa.me/5543996448129)
 
->>>>>>> edf915737170da2010357673bae4914d9aef7a35
+
+
