@@ -6,8 +6,6 @@
 
 ---
 
-![To-Do List Screenshot](image/print-projeto.png)
-
 ## <a name="en"></a>🇺🇸 English Version
 
 ![To-Do List Screenshot](image/print-projeto.png)
