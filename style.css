@@ -57,8 +57,8 @@ body {
   border: none;
   outline: none;
   border-radius: 22px;
-  background: rgba(106, 204, 211, 0.226);
-  color: #6b6565;
+  background: rgba(12, 1, 107, 0.425);
+  color: #ffffff;
 }
 
 .input-area input::placeholder {
@@ -68,7 +68,7 @@ body {
 .input-area button {
   padding: 10px;
   border-radius: 50%;
-  background: rgba(179, 72, 1, 0.322);
+  background: rgba(6, 92, 126, 0.747);
   border: 2px solid rgba(255, 255, 255, 0.18);
   color: #fff;
   font-size: 1.1rem;
